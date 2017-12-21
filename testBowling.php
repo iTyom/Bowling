@@ -28,14 +28,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.php"><img src="logo_BleuRose.png" class="navbar-brand imgnav"/></a>
+          <a href="index.php"><img src="images/logo_BleuRose.png" class="navbar-brand imgnav"/></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="pagebowling.html">Bowling</a></li>
+            <li ><a href="pagebowling.html">Bowling</a></li>
             <li><a href="pagelaser.php">laser blast</a></li>
-            <li><a href="#">Autres Activités</a></li>
-            <li><a href="#">Nos Formules</a></li>
+            <li><a href="AutreActivite.html">Autres Activités</a></li>
+            <li><a href="NosFormules.html">Nos Formules</a></li>
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Boutique</a></li>
           </ul>
@@ -59,7 +59,7 @@
         <!--/Bloc de gauche-->
         <!--Bloc central-->
         <div class="col-sm-8 text-left">
-          <img src="devanture_bowling.png" width=870/>
+          <img src="images/devanture_bowling.png" width=870/>
           <center>
             <h3>Horaires</h3>
             <br />

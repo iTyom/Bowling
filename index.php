@@ -32,10 +32,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="pagebowling.html">Bowling</a></li>
+            <li ><a href="pagebowling.html">Bowling</a></li>
             <li><a href="pagelaser.php">laser blast</a></li>
-            <li><a href="#">Autres Activités</a></li>
-            <li><a href="#">Nos Formules</a></li>
+            <li><a href="AutreActivite.html">Autres Activités</a></li>
+            <li><a href="NosFormules.html">Nos Formules</a></li>
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Boutique</a></li>
           </ul>

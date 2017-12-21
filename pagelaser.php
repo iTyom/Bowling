@@ -21,14 +21,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="index.php"><img src="logo_BleuRose.png" class="navbar-brand imgnav"/></a>
+          <a href="index.php"><img src="images/logo_BleuRose.png" class="navbar-brand imgnav"/></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li ><a href="pagebowling.html">Bowling</a></li>
-            <li><a href="pagelaser.php">Laser Blast</a></li>
-            <li><a href="#">Autres Activités</a></li>
-            <li><a href="#">Nos Formules</a></li>
+            <li><a href="pagelaser.php">laser blast</a></li>
+            <li><a href="AutreActivite.html">Autres Activités</a></li>
+            <li><a href="NosFormules.html">Nos Formules</a></li>
             <li><a href="#">Réservations</a></li>
             <li><a href="#">Boutique</a></li>
           </ul>
@@ -55,9 +55,9 @@
            <!--Création bandeau image -->  
           <table width=100% color=white>
               <tr>
-                <td align= "center" class="ligne_tab"><img src= "laser1.jpg" align = "left" width = "250" height = "250"/></td>
-                <td align= "top" class="ligne_tab"><img src= "laser2.jpg" align = "left" width = "250" height = "250"/></td>
-                <td align= "center" class="ligne_tab"><img src= "laser3.tiff" align = "left" width = "250" height = "250"/></td>
+                <td align= "center" class="ligne_tab"><img src="images/laser1.jpg" align = "left" width = "250" height = "250"/></td>
+                <td align= "top" class="ligne_tab"><img src="images/laser2.jpg" align = "left" width = "250" height = "250"/></td>
+                <td align= "center" class="ligne_tab"><img src="images/laser3.jpg" align = "left" width = "250" height = "250"/></td>
               </tr>
           </table>
             <br />
