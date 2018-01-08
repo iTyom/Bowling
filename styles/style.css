@@ -30,9 +30,9 @@ footer {
   .row.content {height:auto;}
 }
 
-/*Tableau*/
+/*Tableau
 .ligne_tab{
-  width:33%;
+  width:12%;
   text-align: center;
 }
 
@@ -75,5 +75,32 @@ footer{
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+}
+
+#txtBowling {
+  width: 60%;
+  font-size: 18px;
+}
+
+#compteur {
+  font-size: 26px;
+  color: green;
+}
+
+#compteur2 {
+  font-size: 26px;
+  color: green;
+}
+
+#compteur3 {
+  font-size: 26px;
+  color: green;
+}
+
+
+
+.ligne_tab {
+  font-size: 18px;
+
 }
 /*---/Navbar---*/

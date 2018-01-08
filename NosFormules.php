@@ -11,28 +11,9 @@
   </head>
   <body class="body">
     <!--Barre du haut-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="#"><img src="images/logo_BleuRose.png" class="navbar-brand imgnav"/></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li ><a href="pagebowling.html">Bowling</a></li>
-            <li><a href="pagelaser.php">laser blast</a></li>
-            <li><a href="AutreActivite.html">Autres Activités</a></li>
-            <li><a href="NosFormules.html">Nos Formules</a></li>
-            <li><a href="#">Reservations</a></li>
-            <li><a href="#">Boutique</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php 
+      include 'nav.php';
+    ?>
     <!--/Barre du haut-->
 <br /><br /><br />
     <!--Corps du site-->
@@ -41,7 +22,7 @@
         <!--Bloc Anniversaire-->
         <div class="col-sm-12">
         <!--Bloc gauche-->
-        <div class="col-sm-7 text-left">
+        <div class="col-sm-12 text-left">
         <h1>Formule anniversaire à 15€</h1>
         <p>Vous avez le choix entre<br>
         - 2 parties de Bowling<br>

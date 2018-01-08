@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="Style1.css"/>
+    <link rel="stylesheet" type="text/css" href="styleBowling.css"/>
     <title>Bowling</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,45 +11,19 @@
   </head>
   <body class="body">
     <!--Barre du haut-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="index.php"><img src="images/logo_BleuRose.png" class="navbar-brand imgnav"/></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li ><a href="pagebowling.html">Bowling</a></li>
-            <li><a href="pagelaser.php">laser blast</a></li>
-            <li><a href="AutreActivite.html">Autres Activités</a></li>
-            <li><a href="NosFormules.html">Nos Formules</a></li>
-            <li><a href="#">Réservations</a></li>
-            <li><a href="#">Boutique</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php
+      include 'nav.php';
+    ?>
     <!--/Barre du haut-->
 <br /><br /><br />
     <!--Corps du site-->
     <div class="container-fluid text-center">
       <div class="row content">
         <!--Bloc de gauche-->
-        <div class="col-sm-2 sidenav cadre_gauche">
-          <p><a href="#">Link</a></p>
-          <p><a href="#">Link</a></p>
-          <p><a href="#">Link</a></p>
-        </div>
+
         <!--/Bloc de gauche-->
         <!--Bloc central-->
-        <div class="col-sm-8 text-left">
+        <div class="col-sm-12 text-center">
           <img src= "images/bowling.jpg" align = "bottom" width = "930" height = "465"/>
           <center>
             <br />
@@ -93,7 +67,7 @@
                 Du nouveau dans le bowling de Saint Maximim !!
                 <br>
                 <br>
-                Pour tous les petits (3-6ans), Vous avez desormais 2 toboggans à votre disposition pour lancer la boule. 
+                Pour tous les petits (3-6ans), Vous avez desormais 2 toboggans à votre disposition pour lancer la boule.
                 Il suffit à l'enfant de poser la boule, diriger le toboggan, laisser ensuite glisser et... STRIKE!!!!
                 </td>
               </tr>
@@ -122,14 +96,7 @@
         </div>
         <!--/bloc central-->
         <!--Bloc de droite-->
-        <div class="col-sm-2 sidenav cadre_gauche">
-          <div class="well cadre_droite">
-            <p>ADS</p>
-          </div>
-          <div class="well cadre_droite">
-            <p>ADS</p>
-          </div>
-        </div>
+
         <!--/Bloc de droite-->
       </div>
     </div>

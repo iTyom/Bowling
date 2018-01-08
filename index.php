@@ -51,11 +51,7 @@
     <div class="container-fluid text-center">
       <div class="row content">
         <!--Bloc de gauche-->
-        <div class="col-sm-2 sidenav cadre_gauche">
-          <p><a href="#">Link</a></p>
-          <p><a href="#">Link</a></p>
-          <p><a href="#">Link</a></p>
-        </div>
+
         <!--/Bloc de gauche-->
         <!--Bloc central-->
         <div class="col-sm-8 text-left">
@@ -65,7 +61,7 @@
             <br />
             <?php
                 $reqSemaine = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine'");
-                $reqVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine Vacances'");
+                $reqVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine vacances'");
                 $reqSamedi = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Samedi'");
                 $reqSamediVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Samedi vacances'");
                 $reqDimanche = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Dimanche'");
@@ -99,14 +95,7 @@
             </div>
         <!--/bloc central-->
         <!--Bloc de droite-->
-        <div class="col-sm-2 sidenav cadre_gauche">
-          <div class="well cadre_droite">
-            <p>ADS</p>
-          </div>
-          <div class="well cadre_droite">
-            <p>ADS</p>
-          </div>
-        </div>
+
         <!--/Bloc de droite-->
       </div>
     </div>
