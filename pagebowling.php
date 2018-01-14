@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styleBowling.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/styleBowling.css"/>
     <title>Bowling</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -1,7 +1,7 @@
   <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styleFormule.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/styleFormule.css"/>
     <title>Nos Formules</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
   </head>
   <body class="body">
     <!--Barre du haut-->
-    <?php 
+    <?php
       include 'nav.php';
     ?>
     <!--/Barre du haut-->
@@ -37,7 +37,7 @@
         6 enfants minimum, 1,5l de sodas et 1l de jus de fruits</p>
         </div>
         <!--Bloc de droite-->
-        <div class="col-sm-3 cadre_droite">
+        <div class="col-sm-6 text-center">
           <br><br><br><br><br>
           <div class="well cadre_droite">
             <p>Table réservée, bonbons + sodas + Jus de fruits et un cadeau pour l'enfant qui fête son anniversaire</p>

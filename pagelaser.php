@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styleBowling.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/styleBowling.css"/>
     <title>Laser Blast</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,11 +9,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="jquery.animateNumber.js"></script>
-    
+
   </head>
   <body class="body">
     <!--Barre du haut-->
-    <?php 
+    <?php
       include 'nav.php';
     ?>
     <!--/Barre du haut-->
@@ -22,11 +22,11 @@
     <div class="container-fluid text-center">
       <div class="row content">
         <!--Bloc de gauche-->
-        
+
         <!--/Bloc de gauche-->
         <!--Bloc central-->
         <div class="col-sm-12 text-center">
-           <!--Création bandeau image -->  
+           <!--Création bandeau image -->
           <table width=30% color=white align= "center">
               <tr>
                 <div class="col-sm-4"><td align= "center" class="ligne_tab"><img src="images/laser1.jpg" align = "left" width = "250" height = "250"/></td></div>
@@ -52,8 +52,8 @@
             </table>
           <br>
 
-     <!--Tableau bandeau info-->   
-     
+     <!--Tableau bandeau info-->
+
         <table bgcolor= "#FE0188" width=100% color=white>
               <tr height=40 bgcolor= #FE014D>
                 <td align= "top" class="ligne_tab"></td>
@@ -93,7 +93,7 @@
         </div>
         <!--/bloc central-->
         <!--Bloc de droite-->
-        
+
         <!--/Bloc de droite-->
       </div>
     </div>

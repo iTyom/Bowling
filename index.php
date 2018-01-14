@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
     <title>Accueil</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,13 +9,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <?php
-         try {
+         /* try {
             $bdd = new PDO('mysql:host=localhost;dbname=bowling;charset=utf8', 'root', 'root');
         }
         catch (Exception $e)
         {
             die('Erreur : ' . $e->getMessage());
-        }
+        } */
     ?>
   </head>
   <body class="body">
@@ -32,7 +32,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li ><a href="pagebowling.html">Bowling</a></li>
+            <li ><a href="pagebowling.php">Bowling</a></li>
             <li><a href="pagelaser.php">laser blast</a></li>
             <li><a href="AutreActivite.html">Autres Activités</a></li>
             <li><a href="NosFormules.html">Nos Formules</a></li>
@@ -60,12 +60,12 @@
             <h3>Horaires</h3>
             <br />
             <?php
-                $reqSemaine = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine'");
+              /*  $reqSemaine = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine'");
                 $reqVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Semaine vacances'");
                 $reqSamedi = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Samedi'");
                 $reqSamediVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Samedi vacances'");
                 $reqDimanche = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Dimanche'");
-                $reqDimancheVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Dimanche vacances'");
+                $reqDimancheVacance = $bdd->query("SELECT * FROM Horaire WHERE Libelle_Horaire = 'Dimanche vacances'"); */
             ?>
                     <table width=60% color=white>
                       <th>
@@ -74,18 +74,18 @@
                       </th>
                       <tr>
                         <td class="ligne_tab">Du mardi au vendredi</td>
-                        <td class="ligne_tab"><?php while ($donnees = $reqSemaine->fetch()) { echo $donnees['Horaire_Debut']; ?>h - <?php echo $donnees['Horaire_Fin'];}?>h</td>
-                        <td class="ligne_tab"><?php while($donneesVacance = $reqVacance->fetch()) { echo $donneesVacance['Horaire_Debut']; ?>h - <?php echo $donneesVacance['Horaire_Fin'];}?>h</td>
+                        <td class="ligne_tab">h - h</td>
+                        <td class="ligne_tab">h - h</td>
                       </tr>
                       <tr>
                         <td class="ligne_tab">Samedi</td>
-                        <td class="ligne_tab"><?php while($donneesSamedi = $reqSamedi->fetch()) { echo $donneesSamedi['Horaire_Debut']; ?>h - <?php echo $donneesSamedi['Horaire_Fin'];}?>h</td>
-                        <td class="ligne_tab"><?php while($donneesSamediVacance = $reqSamediVacance->fetch()) { echo $donneesSamediVacance['Horaire_Debut']; ?>h - <?php echo $donneesSamediVacance['Horaire_Fin'];}?>h</td>
+                        <td class="ligne_tab">h - h</td>
+                        <td class="ligne_tab">h - h</td>
                       </tr>
                       <tr>
                         <td class="ligne_tab">Dimanche</td>
-                        <td class="ligne_tab"><?php while($donneesDimanche = $reqDimanche->fetch()) { echo $donneesDimanche['Horaire_Debut']; ?>h - <?php echo $donneesDimanche['Horaire_Fin'];}?>h</td>
-                        <td class="ligne_tab"><?php while($donneesDimancheVacance = $reqDimancheVacance->fetch()) { echo $donneesDimancheVacance['Horaire_Debut']; ?>h - <?php echo $donneesDimancheVacance['Horaire_Fin'];}?>h</td>
+                        <td class="ligne_tab">h - h</td>
+                        <td class="ligne_tab">h - h</td>
                       </tr>
                     </table>
                   </center>
