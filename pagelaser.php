@@ -29,9 +29,9 @@
            <!--Création bandeau image -->
           <table width=30% color=white align= "center">
               <tr>
-                <div class="col-sm-4"><td align= "center" class="ligne_tab"><img src="images/laser1.jpg" align = "left" width = "250" height = "250"/></td></div>
-                <div class="col-sm-4"><td align= "top" class="ligne_tab"><img src="images/laser2.jpg" align = "left" width = "250" height = "250"/></td></div>
-                <div class="col-sm-4"><td align= "center" class="ligne_tab"><img src="images/laser3.jpg" align = "left" width = "250" height = "250"/></td></div>
+                <div class="col-sm-4"><td align= "center" class="ligne_tab"><img src="images/laser1.jpg" align = "left" width = "450" height = "450"/></td></div>
+                <div class="col-sm-4"><td align= "top" class="ligne_tab"><img src="images/laser2.jpg" align = "left" width = "338" height = "450"/></td></div>
+                <div class="col-sm-4"><td align= "center" class="ligne_tab"><img src="images/laser3.jpg" align = "left" width = "338" height = "450"/></td></div>
               </tr>
           </table>
             <br />
@@ -100,7 +100,7 @@
 <!--/Corps du site-->
 <!--Pied de page-->
     <footer class="container-fluid text-center">
-      <ul class="nav navbar-nav">
+      <ul id="footer" class="nav navbar-nav">
         <li ><a href="#">Contact</a></li>
         <li><a href="#">Mentions légales</a></li>
       </ul>

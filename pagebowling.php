@@ -23,8 +23,11 @@
 
         <!--/Bloc de gauche-->
         <!--Bloc central-->
+        <div>
+          <img id="imgHeaderBowling" src= "images/headerAccueil.jpg" align = "bottom" />
+        </div>
         <div class="col-sm-12 text-center">
-          <img src= "images/bowling.jpg" align = "bottom" width = "930" height = "465"/>
+
           <center>
             <br />
    <!--Crréation tableau prix bowling -->
@@ -103,8 +106,8 @@
 <!--/Corps du site-->
 <!--Pied de page-->
     <footer class="container-fluid text-center">
-      <ul class="nav navbar-nav">
-        <li ><a href="#">Contact</a></li>
+      <ul id="footer" class="nav navbar-nav">
+        <li><a href="#">Contact</a></li>
         <li><a href="#">Mentions légales</a></li>
       </ul>
     </footer>

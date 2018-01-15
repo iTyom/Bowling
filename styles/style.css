@@ -16,9 +16,16 @@
 
 /* Set black background color, white text and some padding */
 footer {
-  background-color: #555;
+  background-color: white;
   color: white;
   padding: 15px;
+}
+
+.pied {
+  background-color: white;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -97,7 +104,9 @@ footer{
   color: green;
 }
 
-
+a:link {
+  color: black;
+}
 
 .ligne_tab {
   font-size: 18px;

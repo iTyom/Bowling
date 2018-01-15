@@ -40,6 +40,7 @@ footer {
 .body{
     background-color: #525659; /* Le fond de la page sera noir */
     color:white;
+    font-size: 18px;
 }
 
 .cadre_gauche{
@@ -51,9 +52,9 @@ footer {
     color:black;
 }
 
-body h1, body h5
+body h4
 {
-	color: #661919;
+	color: #7B68EE;
 }
 
 a{
@@ -82,3 +83,49 @@ footer{
     color: #fff !important;
 }
 /*---/Navbar---*/
+
+#blocAnniversaire {
+
+}
+
+#titreAnniversaire {
+  color: #00BFFF;
+}
+
+#blocPizza {
+  padding-top: 0px;
+  color: white;
+  /* background-color: #A9A9A9; */
+}
+
+#titrePizza {
+  color: #E9383F
+}
+
+.well {
+  background-color: green;
+  padding: 0px;
+}
+
+#footer {
+    margin-top: 0px;
+}
+
+#blocEntreprise {
+  background-color: #D3D3D3;
+  color: black;
+}
+
+#titreEntreprise {
+  color: green;
+}
+
+
+#txtEntreprise {
+  margin-top: 0vh;
+}
+
+#imgEntreprise {
+  padding: 0px;
+  float: left;
+}
